@@ -34,19 +34,11 @@ div > input {
 }
 
 button[class="editar"]{
-<<<<<<< HEAD
-=======
-    width: 50px;
->>>>>>> c408f0d2b7441e63ba823fc145abf22730ba0dfd
     align-self: flex-end;
     margin-right: 17px;
 }
 
 button[class="limpiar"]{
-<<<<<<< HEAD
-=======
-    width: 50px;
->>>>>>> c408f0d2b7441e63ba823fc145abf22730ba0dfd
     align-self: flex-start;
    margin-top: 2px;
 }
