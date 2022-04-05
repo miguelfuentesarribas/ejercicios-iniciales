@@ -11,7 +11,7 @@
     font-size: 12px;
 }
 
-.contenedor-flex2 {
+.contenedor-flex2, .contenedor-flex3 {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -25,11 +25,6 @@
     font-size: 12px;
 }
 
-.contenedor-flex3 {
-    display: flex;
-    flex-flow: nowrap;
-}
-
 .contenedor-flex3 p {
     background-color: blue;
     width: 100%;
@@ -38,7 +33,7 @@
     line-height: 40px;
     font-size: 12px;
 }
-d
+
 /* debe existir una solucion mas simple*/
 .contenedor-flex3b {
     display: flex;
@@ -67,15 +62,7 @@ d
     font-size: 12px;
 }
 
-.b { 
-    background-color: red;
-    flex-basis: 15%;
-    margin: 3px;
-    line-height: 40px;
-    font-size: 12px;
-}
-
-.c { 
+.b, .c { 
     background-color: red;
     flex-basis: 15%;
     margin: 3px;
