@@ -1,4 +1,44 @@
+div {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .contenedor-flex1 {
     display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
     flex-wrap: wrap;
+    
+}
+  
+.column1, .column2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    width: 170px;
+    justify-content: flex-start;   
+    margin-bottom: 20px;
+}
+
+.column2{
+    align-items: center;
+}
+
+div > input {
+    margin: 15px;
+}
+
+button[class="editar"]{
+    align-self: flex-end;
+    margin-right: 17px;
+}
+
+button[class="limpiar"]{
+    align-self: flex-start;
+   margin-top: 2px;
 }
